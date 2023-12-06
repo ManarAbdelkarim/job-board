@@ -53,5 +53,3 @@ Note that by default it will be localhost:3000
 | `/job_applications`          | POST        | 201 Created     | `POST /job_applications`<br>Request Body: { "user_id": 1, "job_post_id": 1, "status": "applied" } | Newly created job application data                   |
 | `/job_applications/:id`      | PATCH/PUT   | 200 OK          | `PATCH /job_applications/1`<br>Request Body: { "status": "in_review" } | Updated job application data                        |
 | `/job_applications/:id`      | DELETE      | 204 No Content  | `DELETE /job_applications/1`                          | No content                                          |
-
-
